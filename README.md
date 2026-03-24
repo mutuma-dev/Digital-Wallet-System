@@ -1,5 +1,5 @@
 # Digital-Wallet-System
-A Digital Wallet System implementing microservices architecture in spring boot
+A Digital Wallet System implementing microservices architecture using SPRING BOOT, SPRING CLOUD(EUREKA), SPRING CLOUD GATEWAY and JPA.
 # Architecture
 The system implements :
 1) user-service
@@ -17,8 +17,8 @@ Run each microservice indididually in the order of:
 # Commands to run app
 1) mvn clean install (at the root for module management)
 2) mvn spring-boot:run (for each microservice)
-# Routes
-1) /api/v1/users
-2) /api/v1/wallets
-3) /api/v1/transactions
+# USER SERVICE ENDPOINTS
+# WALLET SERVICE ENDPOINTS
+# TRANSACTION SERVICE ENDPOINTS
+
 
