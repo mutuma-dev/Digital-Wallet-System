@@ -17,8 +17,17 @@ Run each microservice indididually in the order of:
 # Commands to run app
 1) mvn clean install (at the root for module management)
 2) mvn spring-boot:run (for each microservice)
-# User Service Endpoints
-# Wallet Service Endpoints
-# Transaction Service Endpoints
+# User Service Endpoints (/api/v1/users)
+1) POST /api/v1/users → Create user
+2) GET /api/v1/users/{userId} → Get user by ID
+3) GET /api/v1/users → Get all users
+# Wallet Service Endpoints (api/v1/wallets)
+1) POST /api/v1/wallets → Create wallet
+2) GET /api/v1/wallets/{walletId} → Get wallet by id
+3) GET /api/v1/wallets → Get all wallets
+# Transaction Service Endpoints (/api/v1/transactions)
+1) POST /api/v1/transactions → Create transaction
+2) GET /api/v1/transaction/{transactionId} → Get transaction by id
+3) GET /api/v1/transactions → Get all transactions
 
 
