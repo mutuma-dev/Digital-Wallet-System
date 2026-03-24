@@ -17,8 +17,8 @@ Run each microservice indididually in the order of:
 # Commands to run app
 1) mvn clean install (at the root for module management)
 2) mvn spring-boot:run (for each microservice)
-# USER SERVICE ENDPOINTS
-# WALLET SERVICE ENDPOINTS
-# TRANSACTION SERVICE ENDPOINTS
+# User Service Endpoints
+# Wallet Service Endpoints
+# Transaction Service Endpoints
 
 
